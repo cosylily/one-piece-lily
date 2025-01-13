@@ -1,0 +1,15 @@
+h1 {
+  font-family: "Jersey 15", serif;
+  font-size: 96px;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "Noto Serif JP", serif;
+  font-weight: normal;
+  font-size: 80px;
+}
+
+header {
+  text-align: center;
+}
