@@ -1,3 +1,6 @@
+.container {
+  max-height: 100%;
+}
 h1 {
   font-family: "Jersey 15", serif;
   font-size: 96px;
@@ -10,10 +13,23 @@ h2 {
   font-size: 80px;
 }
 
-header {
+.header {
   text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("strawhat-crew.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fde687;
+  padding: 80px;
+  max-height: 100%;
 }
 
 footer p {
   font-family: "Roboto Mono", serif;
+}
+
+h3 {
+  font-family: "roboto mono", serif;
+  font-size: 48px;
 }
