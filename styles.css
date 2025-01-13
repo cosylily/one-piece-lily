@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #fde687;
+}
+body {
+  background-color: var(--primary-color);
+}
 h1 {
   font-family: "Jersey 15", serif;
   font-size: 96px;
@@ -9,6 +15,20 @@ h2 {
   font-weight: normal;
   font-size: 80px;
 }
+h3 {
+  font-family: "roboto mono", serif;
+  font-size: 48px;
+}
+.learn {
+  border-radius: 4px;
+  background-color: white;
+  color: var(--primary-color);
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
 
 .header {
   text-align: center;
@@ -17,16 +37,13 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fde687;
+  color: var(--primary-color);
   max-width: 100%;
   margin: 0 auto;
+  padding: 260px;
 }
 
 footer p {
   font-family: "Roboto Mono", serif;
-}
-
-h3 {
-  font-family: "roboto mono", serif;
-  font-size: 48px;
+  color: white;
 }
