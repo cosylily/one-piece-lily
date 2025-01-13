@@ -2,7 +2,11 @@
   --primary-color: #fde687;
 }
 body {
-  background-color: var(--primary-color);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/StrawHats-background.jpeg);
 }
 h1 {
   font-family: "Jersey 15", serif;
@@ -33,7 +37,7 @@ h3 {
 .header {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url("sunny-go.jpeg");
+    url("images/sunny-go.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
