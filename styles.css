@@ -61,6 +61,7 @@ header {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 96px;
 }
 footer p {
   font-family: "Roboto Mono", serif;
@@ -106,6 +107,7 @@ footer li {
   }
   .grid {
     grid-template-columns: 1fr;
+    grid-gap: 0px;
   }
   footer h4 {
     font-size: 24px;
