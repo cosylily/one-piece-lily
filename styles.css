@@ -1,5 +1,6 @@
 :root {
   --primary-color: #fde687;
+  --secondary-color: #423433;
   --font-title: "Jersey 15", serif;
   --font-content: "Roboto Mono", serif;
 }
@@ -32,6 +33,13 @@ h3 {
   font-family: "roboto mono", serif;
   font-size: 48px;
 }
+h4 {
+  font-family: var(--font-title);
+  font-size: 60px;
+  color: var(--secondary-color);
+  text-align: center;
+  margin: 20px;
+}
 .learn {
   border-radius: 4px;
   background-color: white;
@@ -58,13 +66,28 @@ header {
   max-width: 100%;
   padding: 300px;
 }
+.wanted-posters img {
+  border-radius: 10px;
+  width: 260px;
+  height: 300px;
+  margin: 5px auto;
+}
+.wanted-posters div {
+  display: block;
+  margin: 0 auto;
+}
+.wanted-posters {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 96px;
 }
-footer p {
+footer p a {
   font-family: "Roboto Mono", serif;
+  color: var(--primary-color);
 }
 footer {
   color: var(--primary-color);
@@ -84,6 +107,7 @@ footer h4 {
   font-size: 20px;
   line-height: 30px;
   font-family: var(--font-title);
+  color: var(--primary-color);
 }
 footer ul {
   padding: 0px;
