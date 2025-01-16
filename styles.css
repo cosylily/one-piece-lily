@@ -177,6 +177,9 @@ section {
   display: block;
   max-width: 50%;
 }
+.posts {
+  padding: 10px;
+}
 footer p a {
   font-family: "Roboto Mono", serif;
   color: var(--primary-color);
@@ -210,6 +213,13 @@ footer li {
   list-style-type: none;
   margin: 0px;
 }
+.arts-of-one-piece {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 5px auto;
+  max-width: 100%;
+}
+
 @media (max-width: 900px) {
   header {
     padding: 100px 0 !important;
@@ -249,5 +259,9 @@ footer li {
   }
   .card-body {
     padding: 10px;
+  }
+  .arts-of-one-piece {
+    display: block;
+    margin: 0 auto;
   }
 }
