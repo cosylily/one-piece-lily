@@ -97,6 +97,50 @@ header {
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 96px;
 }
+h6 {
+  font-size: 20px;
+  text-align: center;
+  color: var(--primary-color);
+  font-family: var(--font-title);
+  margin: 0 auto;
+}
+.card {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin: 10px;
+}
+.card-body p {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  font-family: var(--font-content);
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.favourite-scenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-header iframe {
+  width: 474px;
+}
+.card-1 .card-body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url(scenes/enies-lobby-background.jpg);
+  margin: 0 auto;
+  padding: 100px;
+}
+.card-footer a {
+  text-decoration: none;
+  font-family: var(--font-content);
+  color: #fde687;
+  margin: 30px auto;
+  display: block;
+  max-width: 50%;
+}
 footer p a {
   font-family: "Roboto Mono", serif;
   color: var(--primary-color);
@@ -163,5 +207,17 @@ footer li {
   .wanted-posters img {
     max-height: 100%;
     max-width: 100%;
+  }
+  .favourite-scenes {
+    grid-template-columns: 1fr;
+  }
+  .card-img img {
+    display: none;
+  }
+  .card-vid iframe {
+    max-width: 100%;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
   }
 }
