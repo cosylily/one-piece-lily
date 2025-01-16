@@ -247,10 +247,10 @@ footer li {
   .favourite-scenes {
     grid-template-columns: 1fr;
   }
-  .card-img img {
+  .card-header img {
     display: none;
   }
-  .card-vid iframe {
+  .card-header iframe {
     max-width: 100%;
     display: block;
     margin: 30px auto;
